@@ -1,0 +1,7 @@
+@import "colors.css";
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Recursive Sans Casual Static", "Symbols Nerd Font";
+    font-size: 14px;
+}

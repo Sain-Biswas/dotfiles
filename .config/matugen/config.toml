@@ -1,0 +1,16 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center"]
+set = true
+
+
+[templates.waybar]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-stylesheet.css'
+output_path = '~/dotfiles/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+
+
+[templates.hyprland]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-hypr.conf'
+output_path = '~/dotfiles/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
