@@ -16,5 +16,7 @@
     "dark": "Vercel Dark"
   },
   "ui_font_family": "Rec Mono Duotone",
-  "buffer_font_family": "Rec Mono Duotone"
+  "buffer_font_family": "Rec Mono Duotone",
+
+  "autosave": "on_focus_change"
 }

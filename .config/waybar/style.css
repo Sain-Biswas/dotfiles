@@ -5,3 +5,82 @@
     font-family: "Recursive Sans Casual Static", "Symbols Nerd Font";
     font-size: 14px;
 }
+
+#waybar {
+    background-color: @surface_blur;
+    color: @on_surface;
+}
+
+/*
+ #backlight
+
+ #battery
+ #battery.<status>
+ #battery.<state>
+ #battery.<status>.<state>
+
+ #clock
+
+ #workspaces
+ #workspaces button
+ #workspaces button.active
+ #workspaces button.empty
+ #workspaces button.persistent
+ #workspaces button.special
+ #workspaces button.visible
+ #workspaces button.urgent
+
+ #idle_inhibitor
+ #idle_inhibitor.<status>
+ <status> is one of the {status} format replacement. For more information see Format replacements
+
+ #mpris
+ #mpris.${status}
+ #mpris.${player}
+
+ #pulseaudio
+ #pulseaudio.bluetooth
+ #pulseaudio.muted
+ #pulseaudio.source-muted
+
+ #tray
+ #tray menu for the context menu
+ #tray > .passive for icons with status Passive
+ #tray > .active for icons with status Active
+ #tray > .needs-attention for icons with status NeedsAttention
+
+ #bluetooth
+ #bluetooth.disabled
+ #bluetooth.off
+ #bluetooth.on
+ #bluetooth.connected
+ #bluetooth.discoverable
+ #bluetooth.discovering
+ #bluetooth.pairable
+ #bluetooth.no-controller
+
+ #power-profiles-daemon
+ #power-profiles-daemon.performance
+ #power-profiles-daemon.balanced
+ #power-profiles-daemon.power-saver
+
+ #image
+ #image.empty
+
+ #temperature
+ #temperature.critical
+
+ #memory
+
+#cpu
+
+#disk
+
+#network
+#network.disabled
+#network.disconnected
+#network.linked
+#network.ethernet
+#network.wifi
+
+ */
