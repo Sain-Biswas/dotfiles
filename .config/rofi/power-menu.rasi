@@ -1,0 +1,98 @@
+// ░█▀▄░█▀█░█▀▀░▀█▀░░░░░░░░░█▀█░█▀█░█▀█░░░█░░░█▀█░█░█░█▀█░█▀▀░█░█░█▀▀░█▀▄
+// ░█▀▄░█░█░█▀▀░░█░░░░▄▄▄░░░█▀█░█▀▀░█▀▀░░░█░░░█▀█░█░█░█░█░█░░░█▀█░█▀▀░█▀▄
+// ░▀░▀░▀▀▀░▀░░░▀▀▀░░░░░░░░░▀░▀░▀░░░▀░░░░░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀
+
+@theme "~/.config/rofi/themes/colors.rasi"
+
+* {
+    font-style: bold;
+}
+
+window {
+    background-color:   @surface-blur;
+    text-color:         @on-surface;
+    location:           south;
+    anchor:             center;
+    width:              20%;
+    padding:            10px 10px 0px 10px;
+    border-radius:      12px 12px 0px 0px;
+}
+
+mainbox {
+    background-color:   @surface;
+    text-color:         @on-surface;
+    padding:            15px 15px 15px 15px;
+    border:             0;
+    border-radius:      12px 12px 0px 0px;
+    orientation:        vertical;
+    children:           [ "listview"];
+}
+
+listview {
+    padding:            0px;
+    spacing:            0px;
+    columns:            6;
+    lines:              1;
+    fixed-height:       0;
+    background-color:   @surface;
+}
+
+element {
+    padding:            10px 0px 10px 0px;
+    cursor:             pointer;
+    spacing:            0px ;
+    border:             0;
+    border-radius:      8px;
+    background-color:   transparent;
+    text-color:         @on-surface;
+}
+
+
+element normal.normal {
+    background-color:    @surface;
+    text-color:          @on-surface;
+}
+
+
+element normal.urgent {
+    background-color:    @error;
+    text-color:          @on-error;
+}
+
+
+element normal.active {
+     background-color:   @surface;
+    text-color:          @on-surface;
+}
+
+
+element selected.normal {
+    background-color:    @primary;
+    text-color:          @on-primary;
+}
+
+
+element selected.urgent {
+    background-color:    @error-container;
+    text-color:          @on-error-container;
+}
+
+
+element selected.active {
+    background-color:    @primary;
+    text-color:          @on-primary;
+}
+
+element-text {
+    background-color:    transparent;
+    cursor:              inherit;
+    highlight:           inherit;
+    text-color:          inherit;
+}
+
+element-icon {
+    background-color:    transparent;
+    size:                0.70em ;
+    cursor:              inherit;
+    text-color:          inherit;
+}
