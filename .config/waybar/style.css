@@ -11,76 +11,206 @@
     color: @on_surface;
 }
 
-/*
- #backlight
+#workspaces {
+    padding: 2px 0px;
+    margin: 2px;
+    border-radius: 999999px;
+    background-color: @surface;
+    color: @on_surface;
+}
 
- #battery
- #battery.<status>
- #battery.<state>
- #battery.<status>.<state>
+#workspaces button {
+    font-weight: bold;
+    border-radius: 999999px;
+    padding: 0 9px;
+    color: @tertiary;
+    background-color: @on_tertiary;
+    margin: 0px 1px;
+}
 
- #clock
+#workspaces button:hover {
+    background-color: @secondary;
+    color: @on_secondary;
+}
 
- #workspaces
- #workspaces button
- #workspaces button.active
- #workspaces button.empty
- #workspaces button.persistent
- #workspaces button.special
- #workspaces button.visible
- #workspaces button.urgent
+#workspaces button.active {
+    padding: 0 15px;
+    background-color: @primary;
+    color: @on_primary;
+}
 
- #idle_inhibitor
- #idle_inhibitor.<status>
- <status> is one of the {status} format replacement. For more information see Format replacements
+#workspaces button.empty:not(.active) {
+    background-color: @outline_blur;
+}
 
- #mpris
- #mpris.${status}
- #mpris.${player}
+#workspaces button.urgent {
+    padding: 0 12px;
+    background-color: @error;
+    color: @on_error;
+}
 
- #pulseaudio
- #pulseaudio.bluetooth
- #pulseaudio.muted
- #pulseaudio.source-muted
+#backlight,
+#battery,
+#clock,
+#idle_inhibitor,
+#mpris,
+#pulseaudio,
+#tray,
+#bluetooth,
+#power-profiles-daemon,
+#utilities,
+#hardware,
+#network {
+    padding: 0px 12px;
+    margin: 2px 2px;
+    border-radius: 999999px;
+    background-color: @surface;
+    color: @on_surface;
+}
 
- #tray
- #tray menu for the context menu
- #tray > .passive for icons with status Passive
- #tray > .active for icons with status Active
- #tray > .needs-attention for icons with status NeedsAttention
+#custom-screenshot,
+#custom-apps,
+#custom-color,
+#memory,
+#cpu,
+#disk,
+#temperature {
+    margin: 0px 8px;
+}
 
- #bluetooth
- #bluetooth.disabled
- #bluetooth.off
- #bluetooth.on
- #bluetooth.connected
- #bluetooth.discoverable
- #bluetooth.discovering
- #bluetooth.pairable
- #bluetooth.no-controller
+#cpu {
+    margin-left: 0px;
+}
 
- #power-profiles-daemon
- #power-profiles-daemon.performance
- #power-profiles-daemon.balanced
- #power-profiles-daemon.power-saver
+#custom-color {
+    margin-right: 0px;
+}
 
- #image
- #image.empty
+#disk {
+    padding-right: 8px;
+}
 
- #temperature
- #temperature.critical
+#custom-screenshot {
+    padding-left: 8px;
+}
 
- #memory
+#pulseaudio,
+#clock {
+    margin-left: 6px;
+}
 
-#cpu
+#battery {
+    margin-right: 6px;
+}
 
-#disk
+#battery.charging {
+    background-color: @primary;
+    color: @on_primary;
+}
 
-#network
-#network.disabled
-#network.disconnected
-#network.linked
-#network.ethernet
-#network.wifi
+#battery.warning:not(.charging) {
+    background-color: @error;
+    color: @on_error;
+}
 
- */
+@keyframes battery-blink {
+    to {
+        background-color: @on_error;
+        color: @error;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: @error;
+    color: @on_error;
+    animation-name: battery-blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#battery.full {
+    background-color: @tertiary;
+    color: @on_tertiary;
+}
+
+#idle_inhibitor.activated {
+    background-color: @primary;
+    color: @on_primary;
+}
+
+#power-profiles-daemon.performance {
+    background-color: @error;
+    color: @on_error;
+}
+
+#power-profiles-daemon.power-saver {
+    background-color: @primary;
+    color: @on_primary;
+}
+
+#mpris.playing {
+    background-color: @primary;
+    color: @on_primary;
+}
+
+#mpris.stopped {
+    background-color: @error;
+    color: @on_error;
+}
+
+#pulseaudio.muted,
+#pulseaudio.source-muted {
+    background-color: @error;
+    color: @on_error;
+}
+
+#pulseaudio.bluetooth {
+    background-color: @primary;
+    color: @on_primary;
+}
+
+#pulseaudio:hover {
+    background-color: @tertiary;
+    color: @on_tertiary;
+}
+
+#tray > .needs-attention {
+    background-color: @error;
+    color: @on_error;
+}
+
+#bluetooth.disabled,
+#bluetooth.no-controller,
+#bluetooth.off {
+    background-color: @error;
+    color: @on_error;
+}
+
+#bluetooth.connected {
+    background-color: @primary;
+    color: @on_primary;
+}
+
+#bluetooth.discoverable,
+#bluetooth.pairable {
+    background-color: @tertiary;
+    color: @on_tertiary;
+}
+
+#temperature.critical {
+    background-color: @error;
+    color: @on_error;
+}
+
+#network:hover {
+    background-color: @tertiary;
+    color: @on_tertiary;
+}
+
+#network.disabled,
+#network.disconnected {
+    background-color: @error;
+    color: @on_error;
+}
