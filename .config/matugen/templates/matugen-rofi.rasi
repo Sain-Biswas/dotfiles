@@ -1,0 +1,99 @@
+/*
+░█▄█░█▀█░▀█▀░█░█░█▀▀░█▀▀░█▀█░░░░░░░░░█▀▄░█▀█░█▀▀░▀█▀
+░█░█░█▀█░░█░░█░█░█░█░█▀▀░█░█░░░▄▄▄░░░█▀▄░█░█░█▀▀░░█░
+░▀░▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░░░░░░░▀░▀░▀▀▀░▀░░░▀▀▀
+*/
+
+* {
+    primary: {{colors.primary.default.rgba}};
+    primary-fixed: {{colors.primary_fixed.default.rgba}};
+    primary-fixed-dim: {{colors.primary_fixed_dim.default.rgba}};
+    on-primary: {{colors.on_primary.default.rgba}};
+    on-primary-fixed: {{colors.on_primary_fixed.default.rgba}};
+    on-primary-fixed-variant: {{colors.on_primary_fixed_variant.default.rgba}};
+    primary-container: {{colors.primary_container.default.rgba}};
+    on-primary-container: {{colors.on_primary_container.default.rgba}};
+    secondary: {{colors.secondary.default.rgba}};
+    secondary-fixed: {{colors.secondary_fixed.default.rgba}};
+    secondary-fixed-dim: {{colors.secondary_fixed_dim.default.rgba}};
+    on-secondary: {{colors.on_secondary.default.rgba}};
+    on-secondary-fixed: {{colors.on_secondary_fixed.default.rgba}};
+    on-secondary-fixed-variant: {{colors.on_secondary_fixed_variant.default.rgba}};
+    secondary-container: {{colors.secondary_container.default.rgba}};
+    on-secondary-container: {{colors.on_secondary_container.default.rgba}};
+    tertiary: {{colors.tertiary.default.rgba}};
+    tertiary-fixed: {{colors.tertiary_fixed.default.rgba}};
+    tertiary-fixed-dim: {{colors.tertiary_fixed_dim.default.rgba}};
+    on-tertiary: {{colors.on_tertiary.default.rgba}};
+    on-tertiary-fixed: {{colors.on_tertiary_fixed.default.rgba}};
+    on-tertiary-fixed-variant: {{colors.on_tertiary_fixed_variant.default.rgba}};
+    tertiary-container: {{colors.tertiary_container.default.rgba}};
+    on-tertiary-container: {{colors.on_tertiary_container.default.rgba}};
+    error: {{colors.error.default.rgba}};
+    on-error: {{colors.on_error.default.rgba}};
+    error-container: {{colors.error_container.default.rgba}};
+    on-error-container: {{colors.on_error_container.default.rgba}};
+    surface: {{colors.surface.default.rgba}};
+    on-surface: {{colors.on_surface.default.rgba}};
+    on-surface-variant: {{colors.on_surface_variant.default.rgba}};
+    outline: {{colors.outline.default.rgba}};
+    outline-variant: {{colors.outline_variant.default.rgba}};
+    shadow: {{colors.shadow.default.rgba}};
+    scrim: {{colors.scrim.default.rgba}};
+    inverse-surface: {{colors.inverse_surface.default.rgba}};
+    inverse-on-surface: {{colors.inverse_on_surface.default.rgba}};
+    inverse-primary: {{colors.inverse_primary.default.rgba}};
+    surface-dim: {{colors.surface_dim.default.rgba}};
+    surface-bright: {{colors.surface_bright.default.rgba}};
+    surface-container-lowest: {{colors.surface_container_lowest.default.rgba}};
+    surface-container-low: {{colors.surface_container_low.default.rgba}};
+    surface-container: {{colors.surface_container.default.rgba}};
+    surface-container-high: {{colors.surface_container_high.default.rgba}};
+    surface-container-highest: {{colors.surface_container_highest.default.rgba}};
+
+        primary-blur: {{colors.primary.default.rgba | set_alpha: 0.5}};
+    primary-fixed-blur: {{colors.primary_fixed.default.rgba | set_alpha: 0.5}};
+    primary-fixed-dim-blur: {{colors.primary_fixed_dim.default.rgba | set_alpha: 0.5}};
+    on-primary-blur: {{colors.on_primary.default.rgba | set_alpha: 0.5}};
+    on-primary-fixed-blur: {{colors.on_primary_fixed.default.rgba | set_alpha: 0.5}};
+    on-primary-fixed-variant-blur: {{colors.on_primary_fixed_variant.default.rgba | set_alpha: 0.5}};
+    primary-container-blur: {{colors.primary_container.default.rgba | set_alpha: 0.5}};
+    on-primary-container-blur: {{colors.on_primary_container.default.rgba | set_alpha: 0.5}};
+    secondary-blur: {{colors.secondary.default.rgba | set_alpha: 0.5}};
+    secondary-fixed-blur: {{colors.secondary_fixed.default.rgba | set_alpha: 0.5}};
+    secondary-fixed-dim-blur: {{colors.secondary_fixed_dim.default.rgba | set_alpha: 0.5}};
+    on-secondary-blur: {{colors.on_secondary.default.rgba | set_alpha: 0.5}};
+    on-secondary-fixed-blur: {{colors.on_secondary_fixed.default.rgba | set_alpha: 0.5}};
+    on-secondary-fixed-variant-blur: {{colors.on_secondary_fixed_variant.default.rgba | set_alpha: 0.5}};
+    secondary-container-blur: {{colors.secondary_container.default.rgba | set_alpha: 0.5}};
+    on-secondary-container-blur: {{colors.on_secondary_container.default.rgba | set_alpha: 0.5}};
+    tertiary-blur: {{colors.tertiary.default.rgba | set_alpha: 0.5}};
+    tertiary-fixed-blur: {{colors.tertiary_fixed.default.rgba | set_alpha: 0.5}};
+    tertiary-fixed-dim-blur: {{colors.tertiary_fixed_dim.default.rgba | set_alpha: 0.5}};
+    on-tertiary-blur: {{colors.on_tertiary.default.rgba | set_alpha: 0.5}};
+    on-tertiary-fixed-blur: {{colors.on_tertiary_fixed.default.rgba | set_alpha: 0.5}};
+    on-tertiary-fixed-variant-blur: {{colors.on_tertiary_fixed_variant.default.rgba | set_alpha: 0.5}};
+    tertiary-container-blur: {{colors.tertiary_container.default.rgba | set_alpha: 0.5}};
+    on-tertiary-container-blur: {{colors.on_tertiary_container.default.rgba | set_alpha: 0.5}};
+    error-blur: {{colors.error.default.rgba | set_alpha: 0.5}};
+    on-error-blur: {{colors.on_error.default.rgba | set_alpha: 0.5}};
+    error-container-blur: {{colors.error_container.default.rgba | set_alpha: 0.5}};
+    on-error-container-blur: {{colors.on_error_container.default.rgba | set_alpha: 0.5}};
+    surface-blur: {{colors.surface.default.rgba | set_alpha: 0.5}};
+    on-surface-blur: {{colors.on_surface.default.rgba | set_alpha: 0.5}};
+    on-surface-variant-blur: {{colors.on_surface_variant.default.rgba | set_alpha: 0.5}};
+    outline-blur: {{colors.outline.default.rgba | set_alpha: 0.5}};
+    outline-variant-blur: {{colors.outline_variant.default.rgba | set_alpha: 0.5}};
+    shadow-blur: {{colors.shadow.default.rgba | set_alpha: 0.5}};
+    scrim-blur: {{colors.scrim.default.rgba | set_alpha: 0.5}};
+    inverse-surface-blur: {{colors.inverse_surface.default.rgba | set_alpha: 0.5}};
+    inverse-on-surface-blur: {{colors.inverse_on_surface.default.rgba | set_alpha: 0.5}};
+    inverse-primary-blur: {{colors.inverse_primary.default.rgba | set_alpha: 0.5}};
+    surface-dim-blur: {{colors.surface_dim.default.rgba | set_alpha: 0.5}};
+    surface-bright-blur: {{colors.surface_bright.default.rgba | set_alpha: 0.5}};
+    surface-container-lowest-blur: {{colors.surface_container_lowest.default.rgba | set_alpha: 0.5}};
+    surface-container-low-blur: {{colors.surface_container_low.default.rgba | set_alpha: 0.5}};
+    surface-container-blur: {{colors.surface_container.default.rgba | set_alpha: 0.5}};
+    surface-container-high-blur: {{colors.surface_container_high.default.rgba | set_alpha: 0.5}};
+    surface-container-highest-blur: {{colors.surface_container_highest.default.rgba | set_alpha: 0.5}};
+}

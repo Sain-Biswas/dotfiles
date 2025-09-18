@@ -14,3 +14,8 @@ post_hook = 'pkill -SIGUSR2 waybar'
 input_path = '~/dotfiles/.config/matugen/templates/matugen-hypr.conf'
 output_path = '~/dotfiles/.config/hypr/colors.conf'
 post_hook = 'hyprctl reload'
+
+
+[templates.rofi]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-rofi.rasi'
+output_path = '~/dotfiles/.config/rofi/themes/colors.rasi'

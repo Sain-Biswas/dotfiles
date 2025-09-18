@@ -1,0 +1,99 @@
+/*
+░█▄█░█▀█░▀█▀░█░█░█▀▀░█▀▀░█▀█░░░░░░░░░█▀▄░█▀█░█▀▀░▀█▀
+░█░█░█▀█░░█░░█░█░█░█░█▀▀░█░█░░░▄▄▄░░░█▀▄░█░█░█▀▀░░█░
+░▀░▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░░░░░░░▀░▀░▀▀▀░▀░░░▀▀▀
+*/
+
+* {
+    primary: rgba(255, 180, 168, 1.0);
+    primary-fixed: rgba(255, 218, 212, 1.0);
+    primary-fixed-dim: rgba(255, 180, 168, 1.0);
+    on-primary: rgba(86, 30, 23, 1.0);
+    on-primary-fixed: rgba(58, 9, 5, 1.0);
+    on-primary-fixed-variant: rgba(115, 52, 43, 1.0);
+    primary-container: rgba(115, 52, 43, 1.0);
+    on-primary-container: rgba(255, 218, 212, 1.0);
+    secondary: rgba(231, 189, 182, 1.0);
+    secondary-fixed: rgba(255, 218, 212, 1.0);
+    secondary-fixed-dim: rgba(231, 189, 182, 1.0);
+    on-secondary: rgba(68, 41, 37, 1.0);
+    on-secondary-fixed: rgba(44, 21, 18, 1.0);
+    on-secondary-fixed-variant: rgba(93, 63, 59, 1.0);
+    secondary-container: rgba(93, 63, 59, 1.0);
+    on-secondary-container: rgba(255, 218, 212, 1.0);
+    tertiary: rgba(222, 196, 140, 1.0);
+    tertiary-fixed: rgba(251, 223, 166, 1.0);
+    tertiary-fixed-dim: rgba(222, 196, 140, 1.0);
+    on-tertiary: rgba(62, 46, 4, 1.0);
+    on-tertiary-fixed: rgba(37, 26, 0, 1.0);
+    on-tertiary-fixed-variant: rgba(86, 68, 25, 1.0);
+    tertiary-container: rgba(86, 68, 25, 1.0);
+    on-tertiary-container: rgba(251, 223, 166, 1.0);
+    error: rgba(255, 180, 171, 1.0);
+    on-error: rgba(105, 0, 5, 1.0);
+    error-container: rgba(147, 0, 10, 1.0);
+    on-error-container: rgba(255, 218, 214, 1.0);
+    surface: rgba(26, 17, 16, 1.0);
+    on-surface: rgba(241, 223, 220, 1.0);
+    on-surface-variant: rgba(216, 194, 190, 1.0);
+    outline: rgba(160, 140, 137, 1.0);
+    outline-variant: rgba(83, 67, 65, 1.0);
+    shadow: rgba(0, 0, 0, 1.0);
+    scrim: rgba(0, 0, 0, 1.0);
+    inverse-surface: rgba(241, 223, 220, 1.0);
+    inverse-on-surface: rgba(57, 46, 44, 1.0);
+    inverse-primary: rgba(144, 75, 64, 1.0);
+    surface-dim: rgba(26, 17, 16, 1.0);
+    surface-bright: rgba(66, 55, 53, 1.0);
+    surface-container-lowest: rgba(20, 12, 11, 1.0);
+    surface-container-low: rgba(35, 25, 24, 1.0);
+    surface-container: rgba(39, 29, 28, 1.0);
+    surface-container-high: rgba(50, 40, 38, 1.0);
+    surface-container-highest: rgba(61, 50, 49, 1.0);
+
+        primary-blur: rgba(255, 180, 168, 0.5);
+    primary-fixed-blur: rgba(255, 218, 212, 0.5);
+    primary-fixed-dim-blur: rgba(255, 180, 168, 0.5);
+    on-primary-blur: rgba(86, 30, 23, 0.5);
+    on-primary-fixed-blur: rgba(58, 9, 5, 0.5);
+    on-primary-fixed-variant-blur: rgba(115, 52, 43, 0.5);
+    primary-container-blur: rgba(115, 52, 43, 0.5);
+    on-primary-container-blur: rgba(255, 218, 212, 0.5);
+    secondary-blur: rgba(231, 189, 182, 0.5);
+    secondary-fixed-blur: rgba(255, 218, 212, 0.5);
+    secondary-fixed-dim-blur: rgba(231, 189, 182, 0.5);
+    on-secondary-blur: rgba(68, 41, 37, 0.5);
+    on-secondary-fixed-blur: rgba(44, 21, 18, 0.5);
+    on-secondary-fixed-variant-blur: rgba(93, 63, 59, 0.5);
+    secondary-container-blur: rgba(93, 63, 59, 0.5);
+    on-secondary-container-blur: rgba(255, 218, 212, 0.5);
+    tertiary-blur: rgba(222, 196, 140, 0.5);
+    tertiary-fixed-blur: rgba(251, 223, 166, 0.5);
+    tertiary-fixed-dim-blur: rgba(222, 196, 140, 0.5);
+    on-tertiary-blur: rgba(62, 46, 4, 0.5);
+    on-tertiary-fixed-blur: rgba(37, 26, 0, 0.5);
+    on-tertiary-fixed-variant-blur: rgba(86, 68, 25, 0.5);
+    tertiary-container-blur: rgba(86, 68, 25, 0.5);
+    on-tertiary-container-blur: rgba(251, 223, 166, 0.5);
+    error-blur: rgba(255, 180, 171, 0.5);
+    on-error-blur: rgba(105, 0, 5, 0.5);
+    error-container-blur: rgba(147, 0, 10, 0.5);
+    on-error-container-blur: rgba(255, 218, 214, 0.5);
+    surface-blur: rgba(26, 17, 16, 0.5);
+    on-surface-blur: rgba(241, 223, 220, 0.5);
+    on-surface-variant-blur: rgba(216, 194, 190, 0.5);
+    outline-blur: rgba(160, 140, 137, 0.5);
+    outline-variant-blur: rgba(83, 67, 65, 0.5);
+    shadow-blur: rgba(0, 0, 0, 0.5);
+    scrim-blur: rgba(0, 0, 0, 0.5);
+    inverse-surface-blur: rgba(241, 223, 220, 0.5);
+    inverse-on-surface-blur: rgba(57, 46, 44, 0.5);
+    inverse-primary-blur: rgba(144, 75, 64, 0.5);
+    surface-dim-blur: rgba(26, 17, 16, 0.5);
+    surface-bright-blur: rgba(66, 55, 53, 0.5);
+    surface-container-lowest-blur: rgba(20, 12, 11, 0.5);
+    surface-container-low-blur: rgba(35, 25, 24, 0.5);
+    surface-container-blur: rgba(39, 29, 28, 0.5);
+    surface-container-high-blur: rgba(50, 40, 38, 0.5);
+    surface-container-highest-blur: rgba(61, 50, 49, 0.5);
+}
