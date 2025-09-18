@@ -1,5 +1,8 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
+# ░█▀▀░█▀█░█░░░█▀█░█▀▄░░░█▀█░▀█▀░█▀▀░█░█░█▀▀░█▀▄░░░█░█░▀█▀░▀█▀░█░░░▀█▀░▀█▀░█░█
+# ░█░░░█░█░█░░░█░█░█▀▄░░░█▀▀░░█░░█░░░█▀▄░█▀▀░█▀▄░░░█░█░░█░░░█░░█░░░░█░░░█░░░█░
+# ░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░▀░░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░░░▀▀▀░░▀░░▀▀▀░▀▀▀░▀▀▀░░▀░░░▀░
 
 # Use rofi to display format options (HEX, RGB, HSL) and get the selected format
 format=$(echo -e "HEX\nRGB\nHSL" | rofi -dmenu -p "Select color format")

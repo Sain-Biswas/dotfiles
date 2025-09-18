@@ -1,6 +1,12 @@
 {
+  // ░█░█░█▀█░█░█░█▀▄░█▀█░█▀▄░░░░░░░░░█▀▀░█▀█░█▀█░█▀▀░▀█▀░█▀▀░█░█░█▀▄░█▀█░▀█▀░▀█▀░█▀█░█▀█
+  // ░█▄█░█▀█░░█░░█▀▄░█▀█░█▀▄░░░▄▄▄░░░█░░░█░█░█░█░█▀▀░░█░░█░█░█░█░█▀▄░█▀█░░█░░░█░░█░█░█░█
+  // ░▀░▀░▀░▀░░▀░░▀▀░░▀░▀░▀░▀░░░░░░░░░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀
+
   "height": 30,
   "spacing": 0,
+
+  // Module Definition
   "modules-left": ["clock", "group/utilities", "mpris"],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
@@ -15,6 +21,7 @@
     "battery",
   ],
 
+  // Hardware details group
   "group/hardware": {
     "orientation": "inherit",
     "modules": [
@@ -60,6 +67,7 @@
     "tooltip-format": "Click to see hardware details.",
   },
 
+  // Utility group with some shortcuts
   "group/utilities": {
     "orientation": "inherit",
     "modules": [
