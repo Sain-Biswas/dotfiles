@@ -101,7 +101,7 @@
   "custom/color": {
     "format": "",
     "tooltip-format": "Color Picker",
-    "on-click": "~/dotfiles/.local/bin/rofi-app-launcher.sh",
+    "on-click": "~/dotfiles/.local/bin/utility-colorpicker.sh",
   },
 
   "clock": {
