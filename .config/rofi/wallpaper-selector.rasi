@@ -1,0 +1,40 @@
+@theme "~/.config/rofi/themes/colors.rasi"
+
+* {
+    padding : 0px;
+    border-radius: 0px;
+}
+
+window {
+    width:                       100%;
+    background-color:            @surface-blur;
+    padding:                     15px 0px 15px 0px;
+}
+
+mainbox {
+    background-color:            @surface;
+    children:                    [ "listview" ];
+}
+
+listview {
+    columns:                     6;
+    lines:                       1;
+    background-color:            @surface;
+}
+
+element {
+    background-color:            @surface;
+    chidren:                     ["element-icon"];
+}
+
+element selected.normal {
+    background-color:            @primary;
+}
+
+element-text {
+    enabled:                     false;
+}
+
+element-icon {
+    background-color:            transparent;
+}

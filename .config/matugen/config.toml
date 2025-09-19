@@ -19,3 +19,7 @@ post_hook = 'hyprctl reload'
 [templates.rofi]
 input_path = '~/dotfiles/.config/matugen/templates/matugen-rofi.rasi'
 output_path = '~/dotfiles/.config/rofi/themes/colors.rasi'
+
+[templates.kitty]
+input_path = '~/dotfiles/.config/matugen/templates/matwal-kitty.conf'
+output_path = '~/dotfiles/.config/wal/templates/colors-kitty.conf'
