@@ -40,3 +40,11 @@ output_path = '~/dotfiles/.config/wal/templates/custom-alacritty.toml'
 [templates.btop]
 input_path = '~/dotfiles/.config/matugen/templates/matugen-btop.theme'
 output_path = '~/dotfiles/.config/btop/themes/matugen.theme'
+
+[templates.gtk3]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-gtk.css'
+output_path = '~/.config/gtk-3.0/gtk.css'
+
+[templates.gtk4]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-gtk.css'
+output_path = '~/.config/gtk-4.0/gtk.css'
