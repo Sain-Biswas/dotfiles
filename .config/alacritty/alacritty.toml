@@ -1,0 +1,22 @@
+#    ░█▀█░█░░░█▀█░█▀▀░█▀▄░▀█▀░▀█▀░▀█▀░█░█
+#    ░█▀█░█░░░█▀█░█░░░█▀▄░░█░░░█░░░█░░░█░
+#    ░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░░░▀░░░▀░
+
+[general]
+import = ["~/dotfiles/.config/alacritty/themes/colors.toml"]
+live_config_reload = true
+
+[window]
+decorations = "None"
+opacity = 0.8
+blur = true
+
+[font]
+normal = { family = "Rec Mono Duotone", style = "Regular" }
+italic = { family = "Rec Mono Duotone", style = "Italic" }
+bold = { family = "Rec Mono Duotone", style = "Bold" }
+bold_italic = { family = "Rec Mono Duotone", style = "Bold Italic" }
+size = 16
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }

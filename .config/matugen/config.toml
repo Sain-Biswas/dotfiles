@@ -1,3 +1,7 @@
+#    ░█▄█░█▀█░▀█▀░█░█░█▀▀░█▀▀░█▀█░░░░░░░░░█▀▀░█▀█░█▀█░█▀▀░▀█▀░█▀▀
+#    ░█░█░█▀█░░█░░█░█░█░█░█▀▀░█░█░░░▄▄▄░░░█░░░█░█░█░█░█▀▀░░█░░█░█
+#    ░▀░▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░░░░░░░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀
+
 [config.wallpaper]
 command = "swww"
 arguments = ["img", "--transition-type", "center"]
@@ -28,3 +32,7 @@ output_path = '~/dotfiles/.config/rofi/themes/colors.rasi'
 [templates.kitty]
 input_path = '~/dotfiles/.config/matugen/templates/matwal-kitty.conf'
 output_path = '~/dotfiles/.config/wal/templates/colors-kitty.conf'
+
+[templates.alacritty]
+input_path = '~/dotfiles/.config/matugen/templates/matwal-alacritty.toml'
+output_path = '~/dotfiles/.config/wal/templates/custom-alacritty.toml'

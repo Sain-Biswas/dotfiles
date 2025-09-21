@@ -74,6 +74,7 @@ case ${scheme} in
 esac
 
 cat ~/.cache/wal/colors-kitty.conf > ~/dotfiles/.config/kitty/colors.conf
+cat ~/.cache/wal/custom-alacritty.toml > ~/dotfiles/.config/alacritty/themes/colors.toml
 
 # Go back to starting Directory
 cd "$CWD" || exit 0
