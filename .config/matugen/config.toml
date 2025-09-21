@@ -36,3 +36,7 @@ output_path = '~/dotfiles/.config/wal/templates/colors-kitty.conf'
 [templates.alacritty]
 input_path = '~/dotfiles/.config/matugen/templates/matwal-alacritty.toml'
 output_path = '~/dotfiles/.config/wal/templates/custom-alacritty.toml'
+
+[templates.btop]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-btop.theme'
+output_path = '~/dotfiles/.config/btop/themes/matugen.theme'
