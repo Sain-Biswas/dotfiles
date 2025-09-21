@@ -12,5 +12,5 @@ waybar &
 
 # Sway NC
 swaync-client -R
-
+swaync-client --reload-config
 swaync-client -rs

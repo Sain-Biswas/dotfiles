@@ -9,6 +9,11 @@ input_path = '~/dotfiles/.config/matugen/templates/matugen-stylesheet.css'
 output_path = '~/dotfiles/.config/waybar/colors.css'
 post_hook = 'pkill -SIGUSR2 waybar'
 
+[templates.swaync]
+input_path = '~/dotfiles/.config/matugen/templates/matugen-stylesheet.css'
+output_path = '~/dotfiles/.config/swaync/colors.css'
+post_hook = 'swaync-client -rs'
+
 
 [templates.hyprland]
 input_path = '~/dotfiles/.config/matugen/templates/matugen-hypr.conf'

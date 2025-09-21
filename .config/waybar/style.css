@@ -66,12 +66,18 @@
 #power-profiles-daemon,
 #utilities,
 #hardware,
+#custom-swaync,
 #network {
     padding: 0px 12px;
     margin: 2px 2px;
     border-radius: 999999px;
     background-color: @surface;
     color: @on_surface;
+}
+
+#custom-swaync:hover {
+    background-color: @secondary;
+    color: @on_secondary;
 }
 
 #custom-screenshot,

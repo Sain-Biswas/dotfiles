@@ -11,3 +11,7 @@
 <* for name, value in colors *>
     @define-color {{name}}_blur {{value.default.rgba | set_alpha:0.5}};
 <* endfor *>
+
+<* for name, value in colors *>
+    @define-color {{name}}_mid {{value.default.rgba | set_alpha:0.75}};
+<* endfor *>
