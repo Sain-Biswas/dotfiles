@@ -8,16 +8,6 @@ mkdir -p .local/bin .config Github
 cd ~/dotfiles
 stow .
 
-# paru installation
-cd ~/Github
-git clone https://aur.archlinux.org/paru-git.git
-cd paru-git
-makepkg -si
-cd src/paru
-cargo clean
-
-sudo pacman -Syyu
-
 # install packages
 cd ~
 paru -Syy --needed --noconfirm $(grep -v '^#' ~/dotfiles/packages.lst | tr '\n' ' ')
