@@ -20,7 +20,7 @@ sudo pacman -Syyu
 
 # install packages
 cd ~
-paru -Syy --needed $(grep -v '^#' ~/dotfiles/packages.lst | tr '\n' ' ')
+paru -Syy --needed --noconfirm $(grep -v '^#' ~/dotfiles/packages.lst | tr '\n' ' ')
 
 # install nvm and node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | sh
