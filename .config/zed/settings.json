@@ -9,16 +9,59 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Catppuccin Mocha",
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "Vercel Dark",
-    "dark": "Vercel Dark"
+  // ai assistant
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": ""
+    }
   },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+
+  // font settings
+  "ui_font_size": 16,
   "ui_font_family": "Rec Mono Duotone",
+  "buffer_font_size": 16,
   "buffer_font_family": "Rec Mono Duotone",
 
-  "autosave": "on_focus_change"
+  // theme
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "Vercel Light",
+    "dark": "Vercel Dark"
+  },
+
+  // code actions
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+
+  // terminal
+  "terminal": {
+    "font_family": "Rec Mono Duotone",
+    "font_size": 16,
+    "cursor_shape": "bar"
+  },
+
+  // Looks
+  "project_panel": {
+    "dock": "right",
+    "auto_fold_dirs": false,
+    "scrollbar": {
+      "show": "auto"
+    }
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "right"
+  }
 }

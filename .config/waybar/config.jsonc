@@ -150,7 +150,7 @@
     "player-icons": {
       "default": "󰎆",
       "mpv": "🎵",
-      "zen": "󰈹",
+      "firefox": "/󰫫",
       "youtube": "",
       "vivaldi": "",
       "spotify": "󰓇",
@@ -176,14 +176,16 @@
     "window-rewrite": {
       "vivaldi": "",
       "title<.*youtube.*>": "",
-      "class<firefox>": "󰈹",
+      "class<firefox>": "",
       "title<.*github.*>": "󰊤",
       "class<kitty>": "",
       "class<alacritty>": "",
       "class<code>": "󰨞",
+      "class<Code - Insiders>": "󰨞",
       "class<dev.zed.Zed>": "",
       "title<.*hianime.*>": "",
       "class<zen>": "",
+      "class<Spotify>": "󰓇",
     },
     "persistent-workspaces": {
       "*": 10,
