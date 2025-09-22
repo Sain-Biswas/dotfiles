@@ -63,5 +63,28 @@
   "collaboration_panel": {
     "button": false,
     "dock": "right"
+  },
+
+  // extentions installed
+  "auto_install_extensions": {
+    "html": true,
+    "toml": true,
+    "git-firefly": true,
+    "dockerfile": true,
+    "sql": true,
+    "vue": true,
+    "catppuccin-icons": true,
+    "svelte": true,
+    "scss": true,
+    "lua": true,
+    "astro": true,
+    "emmet": true,
+    "docker-compose": true,
+    "prisma": true,
+    "python-requirements": true,
+    "vercel-theme": true,
+    "tmux": true,
+    "hyprlang": true,
+    "mdx": true
   }
 }
