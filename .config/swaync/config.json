@@ -107,7 +107,7 @@
         },
         {
           "label": "",
-          "command": "kitty -e btop"
+          "command": "alacritty -e btop"
         },
         {
           "label": "",

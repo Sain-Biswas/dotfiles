@@ -292,6 +292,6 @@
 
     "family": "ipv4_6",
     "format-alt": "󰖟 {ifname} : {ipaddr}/{cidr}",
-    "on-click-right": "kitty -e nmtui",
+    "on-click-right": "alacritty -e nmtui",
   },
 }
