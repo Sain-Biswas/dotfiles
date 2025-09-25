@@ -176,7 +176,7 @@
     "window-rewrite": {
       "vivaldi": "",
       "title<.*youtube.*>": "",
-      "class<firefox>": "",
+      "class<firefox-developer-edition>": "",
       "title<.*github.*>": "󰊤",
       "class<kitty>": "",
       "class<alacritty>": "",

@@ -19,6 +19,8 @@ pipewire-pulse
 polkit-gnome
 sddm
 sof-firmware
+unzip
+vulkan-intel
 wireplumber
 xdg-desktop-portal-hyprland
 

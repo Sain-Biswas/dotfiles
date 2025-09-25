@@ -3,42 +3,42 @@
 #    ░▀░▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░░▀░░░░▀░▀░▀░▀░▀▀▀░░░░░░░░░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░░░▀░░░▀░
 
 [colors.primary]
-background = "#0e1514"
-foreground = "#dde4e2"
-dim_foreground = "#0e1514"
-bright_foreground = "#dde4e2"
+background = "#161217"
+foreground = "#e9e0e7"
+dim_foreground = "#161217"
+bright_foreground = "#e9e0e7"
 
 [colors.cursor]
-text = "#dde4e2"
-cursor = "#bec9c6"
+text = "#e9e0e7"
+cursor = "#cec3cd"
 
 [colors.vi_mode_cursor]
-text = "#0e1514"
-cursor = "#81d5cd"
+text = "#161217"
+cursor = "#e4b7f3"
 
 [colors.search.matches]
-foreground = "#3f4947"
-background = "#afc9e7"
+foreground = "#4c444d"
+background = "#f5b7b5"
 
 [colors.search.focused_match]
-foreground = "#3f4947"
-background = "#81d5cd"
+foreground = "#4c444d"
+background = "#e4b7f3"
 
 [colors.footer_bar]
-foreground = "#3f4947"
-background = "#dde4e2"
+foreground = "#4c444d"
+background = "#e9e0e7"
 
 [colors.hints.start]
-foreground = "#3f4947"
-background = "#b0ccc8"
+foreground = "#4c444d"
+background = "#d4c0d7"
 
 [colors.hints.end]
-foreground = "#3f4947"
-background = "#b0ccc8"
+foreground = "#4c444d"
+background = "#d4c0d7"
 
 [colors.selection]
-text = "#0e1514"
-background = "#81d5cd"
+text = "#161217"
+background = "#e4b7f3"
 
 [colors.normal]
 black = "{color0}"
@@ -72,8 +72,8 @@ white = "{color8}"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#b0ccc8"
+color = "#d4c0d7"
 
 [[colors.indexed_colors]]
 index = 17
-color = "#afc9e7"
+color = "#f5b7b5"
