@@ -186,6 +186,9 @@
       "title<.*hianime.*>": "",
       "class<zen>": "",
       "class<Spotify>": "󰓇",
+      "class<Podman Desktop>": "",
+      "class<jetbrains-toolbox>": "",
+      "class<jetbrains-datagrip>": "",
     },
     "persistent-workspaces": {
       "*": 10,
