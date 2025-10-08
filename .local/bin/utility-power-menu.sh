@@ -29,7 +29,7 @@ powermenu_command(){
 
 # run a rofi command for confirming the action selected
 powermenu_exit(){
-    echo -e "$yes\n$no" | rofi -dmenu -theme ~/dotfiles/.config/rofi/power-menu.rasi -theme-str "listview { columns: 2; }" -theme-str "window { width: 10%; }" || exit 0
+    echo -e "$yes\n$no" | rofi -dmenu -theme ~/dotfiles/.config/rofi/power-menu.rasi -theme-str "listview { columns: 2; }" -theme-str "window { width: 9%; }" || exit 0
 }
 
 # Execute Command
