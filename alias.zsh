@@ -33,3 +33,4 @@ alias gtrash="git stash --include-untracked"
 
 # others
 alias bunx="bunx --bun"
+alias bun="bun --bun"
