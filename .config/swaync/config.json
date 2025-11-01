@@ -20,9 +20,9 @@
 
   "relative-timestamps": true,
 
-  "timeout": 400,
-  "timeout-low": 200,
-  "timeout-critical": 600,
+  "timeout": 4,
+  "timeout-low": 2,
+  "timeout-critical": 6,
 
   "fit-to-screen": false,
   "keyboard-shortcuts": true,
