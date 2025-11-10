@@ -6,13 +6,13 @@
 export FZF_DEFAULT_OPTS=" \
 --style full \
 --preview 'bat --color=always {}' --bind 'focus:transform-header:file --brief {}' \
---color=bg+:#38393f,bg:#121318,spinner:#ffb4ab,hl:#c0c6dc \
---color=fg:#e2e2e9,header:#c0c6dc,info:#e0bbdd,pointer:#ffb4ab \
---color=marker:#b1c5ff,fg+:#e2e2e9,prompt:#e0bbdd,hl+:#c0c6dc \
---color=selected-bg:#b1c5ff \
---color=border:#8f9099,label:#e2e2e9 \
+--color=bg+:#423736,bg:#1a1111,spinner:#ffb4ab,hl:#e6bdbb \
+--color=fg:#f0dedd,header:#e6bdbb,info:#e3c28c,pointer:#ffb4ab \
+--color=marker:#ffb3b0,fg+:#f0dedd,prompt:#e3c28c,hl+:#e6bdbb \
+--color=selected-bg:#ffb3b0 \
+--color=border:#a08c8b,label:#f0dedd \
 --multi"
 
 
 # Aloxaf fzf - tab
-zstyle ':fzf-tab:*' fzf-flags --color=bg+:#38393f,bg:#121318,spinner:#ffb4ab,hl:#c0c6dc,fg:#e2e2e9,header:#c0c6dc,info:#e0bbdd,pointer:#ffb4ab,marker:#b1c5ff,fg+:#e2e2e9,prompt:#e0bbdd,hl+:#c0c6dc,selected-bg:#b1c5ff,border:#8f9099,label:#e2e2e9 --multi
+zstyle ':fzf-tab:*' fzf-flags --color=bg+:#423736,bg:#1a1111,spinner:#ffb4ab,hl:#e6bdbb,fg:#f0dedd,header:#e6bdbb,info:#e3c28c,pointer:#ffb4ab,marker:#ffb3b0,fg+:#f0dedd,prompt:#e3c28c,hl+:#e6bdbb,selected-bg:#ffb3b0,border:#a08c8b,label:#f0dedd --multi
