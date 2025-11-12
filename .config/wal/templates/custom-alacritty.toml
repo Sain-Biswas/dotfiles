@@ -5,7 +5,7 @@
 [colors.primary]
 background = "#1a1111"
 foreground = "#f0dedd"
-dim_foreground = "#1a1111"
+dim_foreground = "#a08c8b"
 bright_foreground = "#f0dedd"
 
 [colors.cursor]
